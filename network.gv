@@ -1,0 +1,269 @@
+digraph g {
+	edge [arrowhead=none color="#707070"]
+	nodesep=1 ranksep=2 splines=false
+	subgraph cluster_input {
+		node [color="#2ecc71" fontcolor="#2ecc71" shape=circle style=filled]
+		color=white
+		1
+		label="My graph
+
+
+
+Input Layer"
+		rank=same
+		2
+		label="My graph
+
+
+
+Input Layer"
+		rank=same
+		3
+		label="My graph
+
+
+
+Input Layer"
+		rank=same
+		4
+		label="My graph
+
+
+
+Input Layer"
+		rank=same
+		5
+		label="My graph
+
+
+
+Input Layer"
+		rank=same
+		6
+		label="My graph
+
+
+
+Input Layer"
+		rank=same
+		7
+		label="My graph
+
+
+
+Input Layer"
+		rank=same
+		8
+		label="My graph
+
+
+
+Input Layer"
+		rank=same
+	}
+	1 -> 9
+	2 -> 9
+	3 -> 9
+	4 -> 9
+	5 -> 9
+	6 -> 9
+	7 -> 9
+	8 -> 9
+	1 -> 10
+	2 -> 10
+	3 -> 10
+	4 -> 10
+	5 -> 10
+	6 -> 10
+	7 -> 10
+	8 -> 10
+	1 -> 11
+	2 -> 11
+	3 -> 11
+	4 -> 11
+	5 -> 11
+	6 -> 11
+	7 -> 11
+	8 -> 11
+	1 -> 12
+	2 -> 12
+	3 -> 12
+	4 -> 12
+	5 -> 12
+	6 -> 12
+	7 -> 12
+	8 -> 12
+	1 -> 13
+	2 -> 13
+	3 -> 13
+	4 -> 13
+	5 -> 13
+	6 -> 13
+	7 -> 13
+	8 -> 13
+	1 -> 14
+	2 -> 14
+	3 -> 14
+	4 -> 14
+	5 -> 14
+	6 -> 14
+	7 -> 14
+	8 -> 14
+	1 -> 15
+	2 -> 15
+	3 -> 15
+	4 -> 15
+	5 -> 15
+	6 -> 15
+	7 -> 15
+	8 -> 15
+	1 -> 16
+	2 -> 16
+	3 -> 16
+	4 -> 16
+	5 -> 16
+	6 -> 16
+	7 -> 16
+	8 -> 16
+	1 -> 17
+	2 -> 17
+	3 -> 17
+	4 -> 17
+	5 -> 17
+	6 -> 17
+	7 -> 17
+	8 -> 17
+	1 -> 18
+	2 -> 18
+	3 -> 18
+	4 -> 18
+	5 -> 18
+	6 -> 18
+	7 -> 18
+	8 -> 18
+	subgraph cluster_1 {
+		color=white
+		rank=same
+		label=" (+2)" labeljust=right labelloc=b
+		9 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		10 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		11 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		12 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		13 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		14 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		15 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		16 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		17 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		18 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+	}
+	9 -> 19
+	10 -> 19
+	11 -> 19
+	12 -> 19
+	13 -> 19
+	14 -> 19
+	15 -> 19
+	16 -> 19
+	17 -> 19
+	18 -> 19
+	9 -> 20
+	10 -> 20
+	11 -> 20
+	12 -> 20
+	13 -> 20
+	14 -> 20
+	15 -> 20
+	16 -> 20
+	17 -> 20
+	18 -> 20
+	9 -> 21
+	10 -> 21
+	11 -> 21
+	12 -> 21
+	13 -> 21
+	14 -> 21
+	15 -> 21
+	16 -> 21
+	17 -> 21
+	18 -> 21
+	9 -> 22
+	10 -> 22
+	11 -> 22
+	12 -> 22
+	13 -> 22
+	14 -> 22
+	15 -> 22
+	16 -> 22
+	17 -> 22
+	18 -> 22
+	9 -> 23
+	10 -> 23
+	11 -> 23
+	12 -> 23
+	13 -> 23
+	14 -> 23
+	15 -> 23
+	16 -> 23
+	17 -> 23
+	18 -> 23
+	9 -> 24
+	10 -> 24
+	11 -> 24
+	12 -> 24
+	13 -> 24
+	14 -> 24
+	15 -> 24
+	16 -> 24
+	17 -> 24
+	18 -> 24
+	9 -> 25
+	10 -> 25
+	11 -> 25
+	12 -> 25
+	13 -> 25
+	14 -> 25
+	15 -> 25
+	16 -> 25
+	17 -> 25
+	18 -> 25
+	9 -> 26
+	10 -> 26
+	11 -> 26
+	12 -> 26
+	13 -> 26
+	14 -> 26
+	15 -> 26
+	16 -> 26
+	17 -> 26
+	18 -> 26
+	subgraph cluster_2 {
+		color=white
+		rank=same
+		label="" labeljust=right labelloc=b
+		19 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		20 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		21 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		22 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		23 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		24 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		25 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		26 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+	}
+	19 -> 27
+	20 -> 27
+	21 -> 27
+	22 -> 27
+	23 -> 27
+	24 -> 27
+	25 -> 27
+	26 -> 27
+	subgraph cluster_output {
+		node [color="#2ecc71" fontcolor="#2ecc71" shape=circle style=filled]
+		color=white
+		rank=same
+		labeljust=1
+		27 [color="#e74c3c" fontcolor="#e74c3c" shape=circle style=filled]
+		label="Output Layer" labelloc=bottom
+	}
+	arrowShape=none
+}
